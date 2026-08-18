@@ -2,7 +2,7 @@
 
 **[View the live interactive story on Tableau Public](https://public.tableau.com/app/profile/joseph.rodriguez6265/viz/online_retail_II/TheHeadline)**
 
-This is a four slide narrative dashboard built in Tableau, using real UK e commerce transaction data from December 2009 through December 2011. Instead of an open ended dashboard where you click around and explore on your own, this is built like a guided story. It walks you through what's happening in the business, where the friction is, and what a leadership team would actually want to take away from it.
+This is a four slide narrative dashboard built in Tableau, using real UK e commerce transaction data spanning roughly two years, from late 2009 into late 2011. Instead of an open ended dashboard where you click around and explore on your own, this is built like a guided story. It walks you through what's happening in the business, where the friction is, and what a leadership team would actually want to take away from it.
 
 ## Data Source
 
@@ -48,7 +48,7 @@ A handful of issues came up while building this, both in the data itself and in 
 
 **The January 2011 returns anomaly, checked at the row level.** Rather than take "returns spike in January" at face value, I pulled the underlying transaction rows to see what was actually going on. It traced back to one customer's wholesale order (Invoice 541431) for 74,215 units, cancelled 16 minutes later (Invoice C541433), same stock code, quantity, and price on both sides. I reframed the caption around that as an isolated cancelled order instead of a seasonal pattern.
 
-**Caption and chart mismatches.** I also caught and fixed a duplicated sentence in the Slide 2 caption, along with a few stale axis labels that were still showing raw field names ("Description" became "Product," "Month of Invoice Date" became "Date," and "Revenue" became "Returns ($)" on the returns chart).
+**Caption and chart mismatches.** I also caught and fixed a duplicated sentence in the Slide 2 caption, along with a few stale axis labels that were still showing raw field names ("Description" became "Product," "Month of Invoice Date" became "Date," and "Revenue" became "Returns ($)" on the returns chart). I also relabeled the raw country code "EIRE" to "Ireland" on the chart itself, since a viewer unfamiliar with the dataset would likely read that as a typo rather than a country name.
 
 ## Tools
 
