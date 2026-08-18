@@ -55,5 +55,3 @@ A handful of issues came up while building this, both in the data itself and in 
 Tableau Desktop, Tableau Public
 
 ## Screenshots
-
-Screenshots of each of the four story points go here.
