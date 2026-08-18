@@ -6,9 +6,9 @@ This is a four slide narrative dashboard built in Tableau, using real UK e comme
 
 ## Data Source
 
-[Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii), UCI Machine Learning Repository, created by Daqing Chen. Covers real transactions from a UK based online retailer between December 1, 2009 and December 9, 2011.
+This data comes from [Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii) on the UCI Machine Learning Repository, created by Daqing Chen. It covers real transactions from a UK based online retailer between December 1, 2009 and December 9, 2011.
 
-Licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode).
+It's licensed under Creative Commons Attribution 4.0 International (CC BY 4.0), which basically means it's fine to use and adapt as long as you give proper credit, which is what I'm doing here.
 
 Citation: Chen, D. (2012). Online Retail II [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5CG6D
 
