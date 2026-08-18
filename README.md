@@ -55,3 +55,16 @@ A handful of issues came up while building this, both in the data itself and in 
 Tableau Desktop, Tableau Public
 
 ## Screenshots
+
+## The Headline
+<img width="815" height="772" alt="Screenshot 2026-08-18 162104" src="https://github.com/user-attachments/assets/0227cb7a-b21f-4f94-8e1f-55f164a86fc6" />
+
+## Where It's Coming From
+<img width="818" height="772" alt="Screenshot 2026-08-18 162114" src="https://github.com/user-attachments/assets/e189df4b-814b-4648-bed2-c9cfce69053a" />
+
+## What's Driving It
+<img width="817" height="770" alt="Screenshot 2026-08-18 162122" src="https://github.com/user-attachments/assets/be076497-5c2f-477c-bb12-2622c8670028" />
+
+## The Friction Point
+<img width="816" height="772" alt="Screenshot 2026-08-18 162130" src="https://github.com/user-attachments/assets/09b42497-02f0-4dbf-98d1-9595954f7d29" />
+
