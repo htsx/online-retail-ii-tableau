@@ -1,6 +1,6 @@
 # Online Retail II: Tableau Storytelling Dashboard
 
-**[View the live interactive story on Tableau Public](https://public.tableau.com/app/profile/joseph.rodriguez6265/viz/online_retail_II/TheHeadline)**
+**[Tableau Public Link](https://public.tableau.com/app/profile/joseph.rodriguez6265/viz/online_retail_II/TheHeadline)**
 
 This is a four slide narrative dashboard built in Tableau, using real UK e commerce transaction data spanning roughly two years, from late 2009 into late 2011. Instead of an open ended dashboard where you click around and explore on your own, this is built like a guided story. It walks you through what's happening in the business, what looked like a problem but wasn't, and what a leadership team would actually want to take away from it.
 
