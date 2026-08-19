@@ -32,7 +32,7 @@ This is a bar chart of the top 10 products by revenue. The 45% figure was double
 ### 4. The Friction Point / Takeaway
 Returns stay pretty steady month to month, except for one thing in January 2011: a customer placed an order for 74,215 units of the same item and cancelled it just 16 minutes later. That single cancelled order, worth about $77K, is a one off, not a real return trend.
 
-This is a bar chart of monthly return totals, styled in its own accent color to set it apart from the first three slides. What looked at first like it might be a "returns spike after the holidays" story turned out, once I dug into the actual rows, to be one wholesale order that got placed and cancelled almost immediately. That's a finding backed by the data rather than an assumption.
+This is a bar chart of monthly return totals, styled in its own accent color to set it apart from the first three slides. What looked at first like it might be a returns spike after the holidays turned out, once I dug into the actual data, to be one wholesale order that got placed and cancelled almost immediately. That's a finding backed by the data rather than an assumption.
 
 ## Data Quality and Analysis Fixes
 
@@ -40,15 +40,15 @@ A handful of issues came up while building this, both in the data itself and in 
 
 **Partial trailing month.** The dataset actually ends on December 9, 2011. The last data point on both the revenue and returns charts originally included that partial month, which showed up as a misleading drop or spike at the very end. I trimmed both charts to end at November 2011, the last full month.
 
-**Discrete versus continuous date field.** The Monthly Return Trends chart was originally built on a discrete Month field, which was quietly summing every instance of the same month name (every December, for example) across all three years into a single bar. I switched it to a continuous Month, Year field so each bar now represents one real calendar month.
+**A chart that was grouping years together by mistake.** The Monthly Return Trends chart was originally set up in a way that lumped every December together into one bar, no matter which year it came from, instead of showing each month on its own. I fixed the chart so every month shows up separately across the full timeline, the same way the revenue chart does.
 
 **UK scale distortion.** Including the UK in the international markets chart, at roughly 16M compared to around 1M for the next highest country, made every other country unreadable. I excluded it from the chart and kept it in the caption for context instead.
 
 **Verified rather than eyeballed headline numbers.** Two of the original claims turned out to be wrong once I actually checked the numbers. I had assumed the Netherlands led internationally, but Ireland actually does at around $610K. I'd also estimated the product revenue gap at nearly 50%, but the real number came out closer to 45% once I summed the actual figures.
 
-**The January 2011 returns anomaly, checked at the row level.** Rather than take "returns spike in January" at face value, I pulled the underlying transaction rows to see what was actually going on. It traced back to one customer's wholesale order (Invoice 541431) for 74,215 units, cancelled 16 minutes later (Invoice C541433), same stock code, quantity, and price on both sides. I reframed the caption around that as an isolated cancelled order instead of a seasonal pattern.
+**The January 2011 returns spike, checked at the source.** Rather than take "returns spike in January" at face value, I looked directly at the individual transactions behind it to see what was actually going on. It traced back to one customer's wholesale order for 74,215 units, cancelled just 16 minutes later, same item, same quantity, same price on both sides. I reframed the caption around that as an isolated cancelled order instead of a seasonal pattern.
 
-**Caption and chart mismatches.** I also caught and fixed a duplicated sentence in the Slide 2 caption, along with a few stale axis labels that were still showing raw field names ("Description" became "Product," "Month of Invoice Date" became "Date," and "Revenue" became "Returns ($)" on the returns chart). I also relabeled the raw country code "EIRE" to "Ireland" on the chart itself, since a viewer unfamiliar with the dataset would likely read that as a typo rather than a country name.
+**Caption and chart cleanup.** I also caught and fixed a duplicated sentence in the Slide 2 caption, along with a few leftover labels that were still showing raw data field names instead of plain English ("Description" became "Product," "Month of Invoice Date" became "Date," and "Revenue" became "Returns ($)" on the returns chart). I also relabeled the raw country code "EIRE" to "Ireland" on the chart itself, since a viewer unfamiliar with the dataset would likely read that as a typo rather than a country name.
 
 ## Tools
 
