@@ -29,7 +29,7 @@ The Regency Cakestand 3 Tier and White Hanging Heart T Light Holder are the top 
 
 This is a bar chart of the top 10 products by revenue. The 45% figure was double checked against the actual summed revenue for the top two products versus the remaining eight.
 
-### 4. The Friction Point / Takeaway
+### 4. A Closer Look
 Returns stay pretty steady month to month, except for one thing in January 2011: a customer placed an order for 74,215 units of the same item and cancelled it just 16 minutes later. That single cancelled order, worth about $77K, is a one off, not a real return trend.
 
 This is a bar chart of monthly return totals, styled in its own accent color to set it apart from the first three slides. What looked at first like it might be a returns spike after the holidays turned out, once I dug into the actual data, to be one wholesale order that got placed and cancelled almost immediately. That's a finding backed by the data rather than an assumption.
