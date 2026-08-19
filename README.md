@@ -65,6 +65,6 @@ Tableau Desktop, Tableau Public
 ## What's Driving It
 <img width="817" height="770" alt="Screenshot 2026-08-18 162122" src="https://github.com/user-attachments/assets/be076497-5c2f-477c-bb12-2622c8670028" />
 
-## The Friction Point
+## A Closer Look
 <img width="816" height="772" alt="Screenshot 2026-08-18 162130" src="https://github.com/user-attachments/assets/09b42497-02f0-4dbf-98d1-9595954f7d29" />
 
